@@ -1,0 +1,35 @@
+body{
+    display: grid;
+    place-items: center;
+    height: 70vh;
+    margin: 0;
+}
+
+.productManagementForm{
+    width: 30%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+fieldset{
+    border: 2.2px solid black;
+    border-radius: 12px;
+    margin:0;
+    padding: 5%;
+}
+
+legend{
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+label{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+input{
+    width: 90%;
+    padding: 1.5%;
+    font-size: 14px;
+}

@@ -1,0 +1,26 @@
+body{
+    width: 25%;
+    margin: auto;
+    border: none;
+    padding: 8% 0 0 0;
+}
+
+fieldset{
+    border: none;
+    font-size:x-large;
+    font-weight: bolder;
+}
+
+th{
+    font-size: medium;
+    text-align: left;
+}
+
+input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: #f1f1f1;
+}

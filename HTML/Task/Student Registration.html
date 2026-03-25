@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Student Registration</title>
+    </head>
+    <body style="background-color: rgb(239, 239, 239);">
+        <div class="container" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: rgb(255, 255, 255); border: 1px solid rgb(0, 78, 162); border-radius: 5px;">
+            <div class="form" style="padding-left: 12px;">
+                <h1 style="line-height: 18px;">Student Registration Form</h1>
+                <p style="color: rgb(127, 127, 127); font-size: 14px;">Fill up all given field for registration purposes</p>
+                <hr style="margin-left: -12px;">
+                <form style="font-size: 14px;">
+                    <label for="name">Student Name</label><br>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" style="width: 50%; padding: 0.3%;" ><br><br>
+                    <label for="cgpa">CGPA</label><br>
+                    <input type="number" id="cgpa" name="cgpa" placeholder="Enter your CGPA" style="width: 50%; padding: 0.3%;"><br><br>
+                    <label for="gender">Gender</label><br>
+                    <input type="radio" id="gendermale" name="gender" value="male">
+                    <label for="gendermale">Male</label>
+                    <span style="margin-left: 20px;"></span>
+                    <input type="radio" id="genderfemale" name="gender" value="female">
+                    <label for="genderfemale">Female</label><br><br>
+                    <label for="dept">Department</label><br>
+                    <select id="dept" name="dept" style="width: 51%; padding: 0.3%;">
+                        <option value="default">Select your department</option>
+                        <option value="cse">Computer Science and Engineering</option>
+                        <option value="eee">Electrical and Electronics Engineering</option>
+                        <option value="mech">Mechanical Engineering</option>
+                        <option value="civil">Civil Engineering</option>
+                        <option value="arch">Architecture</option>
+                        <option value="bba">Business Administration</option>
+                        <option value="english">English</option>
+                    </select><br><br>
+                    <label for="address">Address</label><br>
+                    <textarea id="address" name="address" placeholder="Enter your address" style="width: 50%; padding: 0.3%; row-gap: 4;"></textarea><br><br>
+                    <label for="dob">Date of Birth</label><br>
+                    <input type="date" id="dob" name="dob" style="width: 50%; padding: 0.3%;"><br><br>
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" style="width: 50%; padding: 0.3%;"><br><br>
+                    <label for="gradeReport">Upload Grade Report</label><br>
+                    <input type="file" id="gradeReport" name="gradeReport" style="width: 50%; padding: 0.3%;"><br><br>
+                    <label for="Contact No.">Contact No.</label><br>
+                    <input type="tel" id="contact" name="contact" placeholder="Enter your contact number" style="width: 50%; padding: 0.3%;"><br><br>
+                    <input type="checkbox" id="terms" name="terms">
+                    <label for="terms">I agree to the terms and conditions <a href="#">Terms and Conditions</a></label><br><br>
+                    <input type="submit" value="Submit" style="background-color: rgb(0, 78, 162); color: rgb(255, 255, 255); border: none; padding: 0.5% 1%; border-radius: 3px; cursor: pointer; float: center;">
+                    <input type="reset" value="Clear" style="background-color: rgb(232, 11, 11); color: rgb(245, 241, 241); border: none; padding: 0.5% 1%; border-radius: 3px; cursor: pointer; float: right; margin-right: 10px;">
+                    <br><br>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
